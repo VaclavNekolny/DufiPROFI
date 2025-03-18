@@ -17,9 +17,15 @@
       rel="stylesheet"
     />
     <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
     /> -->
+
+    <!-- FONT Merriweather -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+    </style>
+    <!-- end of FONT Merriweather -->
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -41,29 +47,47 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto gap-3 fs-5">
+          <ul class="navbar-nav ms-auto gap-3 me-3">
             <li class="nav-item">
-              <a href="#sluzby" class="nav-link fw-semibold">SLUŽBY</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="#details"
-                class="nav-link fw-semibold"
-                data-bs-toggle="modal"
-                data-bs-target="#cenik"
-                >CENÍK</a
+              <a href="index.html#sluzby" class="nav-link fw-semibold"
+                >SLUŽBY</a
               >
             </li>
             <li class="nav-item">
-              <a href="#o_me" class="nav-link fw-semibold">MŮJ PŘÍBĚH</a>
+              <a href="cenik.html" class="nav-link fw-semibold">CENÍK</a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio" class="nav-link fw-semibold">PORTFOLIO</a>
+              <a href="index.html#o_me" class="nav-link fw-semibold"
+                >MŮJ PŘÍBĚH</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#kontakt" class="nav-link fw-semibold">KONTAKT</a>
+              <a href="index.html#portfolio" class="nav-link fw-semibold"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#kontakt" class="nav-link fw-semibold"
+                >KONTAKT</a
+              >
             </li>
           </ul>
+          <span class="nav-item mx-1">
+            <span class="fa-stack">
+              <a href="https://www.facebook.com/profile.php?id=1254131980&sk=photos" target="new">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item mx-1">
+            <span class="fa-stack">
+              <a href="https://www.instagram.com/dufiprofi/" target="new">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
         </div>
       </div>
     </nav>
@@ -85,7 +109,10 @@
               <div
                 class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
               >
-                <h1 class="display-3 fw-bold mb-4" id="hlavni_nadpis">
+                <h1
+                  class="merriweather-light display-3 mb-4"
+                  id="hlavni_nadpis"
+                >
                   Vítejte na stránkách DufiProfi
                 </h1>
                 <p class="lead" id="hlavni_popis">
@@ -118,54 +145,60 @@
           <h2 class="text-primary ms-4 mb-5">Služby</h2>
           <div class="row hstack g-5">
             <div class="col-md-4">
-              <div class="card bg-light">
-                <img
-                  class="card-img-top"
-                  src="images/produkty_placeholder1.png"
-                  alt="Svatební líčení"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Svatební líčení a účes</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur. Inventore nulla
-                    autem delectus quo animi at!
-                  </p>
+              <a href="cenik.html#cenik_svatebni" class="text-decoration-none">
+                <div class="card bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/produkty_placeholder1.png"
+                    alt="Svatební líčení"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Svatební líčení a účes</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur. Inventore nulla
+                      autem delectus quo animi at!
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="col-md-4">
-              <div class="card bg-light">
-                <img
-                  class="card-img-top"
-                  src="images/produkty_placeholder2.webp"
-                  alt="Vizáž na společenskou akci"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Vizáž na společenskou akci</h5>
-                  <p class="card-text bg-white">
-                    Lorem ipsum dolor sit amet consectetur. Inventore nulla
-                    autem delectus quo animi at!
-                  </p>
+              <a href="cenik.html#cenik_ostatni" class="text-decoration-none">
+                <div class="card bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/produkty_placeholder2.webp"
+                    alt="Vizáž na společenskou akci"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Vizáž na společenskou akci</h5>
+                    <p class="card-text bg-white">
+                      Lorem ipsum dolor sit amet consectetur. Inventore nulla
+                      autem delectus quo animi at!
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="col-md-4">
-              <div class="card bg-light">
-                <img
-                  class="card-img-top"
-                  src="images/produkty_placeholder3.png"
-                  alt="Líčení a účes na maturák"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Líčení a účes na maturitní ples</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                    sit magnam non similique autem!
-                  </p>
+              <a href="cenik.html#cenik_maturitni" class="text-decoration-none">
+                <div class="card bg-light">
+                  <img
+                    class="card-img-top"
+                    src="images/produkty_placeholder3.png"
+                    alt="Líčení a účes na maturák"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Líčení a účes na maturitní ples</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Et sit magnam non similique autem!
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div class="text-container mt-5">
@@ -309,7 +342,7 @@
               <div class="visually-hidden">Next</div>
             </div>
           </div>
-          <button class="btn btn-primary mt-2">Více fotografií</button>
+          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2">Více fotografií</a>
         </div>
       </div>
     </section>
@@ -397,270 +430,56 @@
     </section>
     <!-- end of KONTAKTNÍ FORMULÁŘ -->
 
-    <!-- CENÍK modal -->
-    <!-- Modal 1 -->
-    <div id="cenik" class="modal fade">
-      <div class="modal-dialog modal-lg pt-3">
-        <div class="modal-content p-4 cenik">
-          <div class="d-flex flex-column align-items-center gap-3 pt-3 w-100">
-            <h2 class="display-6">Ceník služeb</h2>
-            <a class="btn btn-secondary text-primary close-button" data-bs-dismiss="modal"
-              >X</a
-            >
-
-            <div id="accordion" class="w-100">
-              <!-- 1. karta -->
-              <div class="card bg-transparent border-0">
-                <div
-                  class="card-header btn"
-                  id="headingOne"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  <a class="mb-0 text-secondary text-decoration-none fs-5"> Svatební ceník </a>
-                </div>
-
-                <div
-                  id="collapseOne"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    <h5>
-                      Zkouška líčení a účesu
-                      <b>1500 - 2000Kč</b>
-                    </h5>
-                    <p>
-                      Asi měsíc před termínem svatby. Na zkoušku si vyhraďte čas
-                      120 - 180 minut.
-                    </p>
-                    <h5>
-                      Nevěsta (svatební den)
-                      <b>4000Kč</b>
-                    </h5>
-                    <p>Líčení a účes v den svatby</p>
-                    <h5>Svatebčanky <b>1000 - 2000Kč</b></h5>
-                    <p>Líčení a účes v den svatby.</p>
-                    <h5>Cestovné <b>10 Kč/km</b></h5>
-                    <p>
-                      Cestovné je počítáno tam i zpět + parkovné. Jezdím po
-                      celém Ústeckém kraji, po domluvě i mimo.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- 2. karta -->
-              <div class="card bg-transparent border-0">
-                <div
-                  class="card-header btn"
-                  id="headingTwo"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="true"
-                  aria-controls="collapseTwo"
-                >
-                  <a class="mb-0 text-secondary text-decoration-none fs-5"> Další informace </a>
-                </div>
-
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    <h5>REZERVACE TERMÍNU</h5>
-                    <p>
-                      V případě zájmu o mé služby je nutné domluvit si předem
-                      termín zkoušky. Zkoušku považuji za velmi důležitou část
-                      Vaší přípravy na svatební den, proto si na ni udělejte čas
-                      a připravte se na ni. Jak se na ni připravit? Přijďte
-                      nenalíčená. Vlasy si umyjte dle vašich zvyklostí, avšak
-                      nepoužívejte žádné stylingové produkty. Vhodné je mít bílý
-                      vršek a pokud máte vybrané šperky, vlasové ozdoby, závoj,
-                      přineste si je s sebou. Abych měla jistotu, že s Vámi mohu
-                      počítat, je nutné zaslat převodem na účet nevratný
-                      rezervační poplatek ve výši 1 000 Kč do dvou pracovních
-                      dnů od písemné či telefonické domluvy. Tento poplatek se
-                      odečítá z konečné částky za svatební zkoušku. Zkouška
-                      probíhá v Jirkově.
-                    </p>
-                    <h5>ZAPŮJČENÍ VLASOVÝCH OZDOB</h5>
-                    <p>
-                      Ozdoby do vlasů je možné si zapůjčit za vratnou zálohu 500
-                      Kč.
-                    </p>
-                    <h5>CESTOVNÉ</h5>
-                    <p>
-                      Jezdím po celém Ústeckém kraji, po domluvě i mimo Ústecký
-                      kraj. Do cestovného je započítána cesta tam i zpět,
-                      popřípadě parkovné.
-                    </p>
-                    <h5>PLATBA ZA SLUŽBY</h5>
-                    <p>
-                      Rezervační poplatek za Vámi vyblokovaný termín zkoušky je
-                      předem na účet. Zkouška líčení a účesu v hotovosti,
-                      popřípadě okamžitým převodem na účet v den zkoušky. Částku
-                      za služby ve svatební den lze uhradit hotově na místě nebo
-                      okamžitým převodem na účet.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 3. karta -->
-              <div class="card bg-primary text-dark  border-0">
-                <div
-                  class="card-header btn"
-                  id="headingThree"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="true"
-                  aria-controls="collapseThree"
-                >
-                  <a class="mb-0 fs-5 text-dark text-decoration-none">
-                    Ceník ostatních služeb
-                  </a>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    <h5>Líčení a účes <b>2000 - 3000Kč</b></h5>
-                    <p></p>
-                    <h5>Líčení <b>1000 - 1500Kč</b></h5>
-                    <p></p>
-                    <h5>Účes <b>1000 - 1500Kč</b></h5>
-                    <p>
-                      Cena se odvíjí od náročnosti a spotřebovaného materiálu
-                      jako jsou gumičky, pinetky, vycpávky do drdolůů a
-                      stylingové produkty
-                    </p>
-                    <h5>Zkoška líčení a účesu</h5>
-                    <p>
-                      líčení <b>1000 Kč</b><br />
-                      účes <b>1000 Kč</b><br />
-                      líčení a účes <b>1500 Kč</b>
-                    </p>
-                    <h5>Cestovné <b>10 Kč/km</b></h5>
-                    <p>
-                      Cestovné je počítáno tam i zpět + parkovné. Jezdím po
-                      celém Ústeckém kraji, po domluvě i mimo.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 4.karta -->
-              <div class="card bg-primary text-dark border-0">
-                <div
-                  class="card-header btn"
-                  id="headingFour"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
-                  aria-expanded="true"
-                  aria-controls="collapseFour"
-                >
-                  <a class="mb-0 text-dark text-decoration-none fs-5"> Další informace </a>
-                </div>
-
-                <div
-                  id="collapseFour"
-                  class="collapse"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    <h5>REZERVACE</h5>
-                    <p>
-                      Pro rezervaci Vašeho termínu vyžaduji nevratný rezervační
-                      poplatek ve výši 1 000 Kč (za zkoušku 500 Kč) převodem na
-                      účet do dvou pracovních dnů od písemné či telefonické
-                      domluvy. Tento poplatek se odečítá z konečné částky za
-                      finální vizáž.
-                    </p>
-                    <h5>CESTOVNÉ</h5>
-                    <p>
-                      Jezdím po celém Ústeckém kraji, po domluvě i mimo Ústecký
-                      kraj. Do cestovného je započítána cesta tam i zpět,
-                      popřípadě parkovné.
-                    </p>
-                  </div>
-                </div>
-              </div>
+    <footer class="bg-dark text-light py-4">
+      <div class="row">
+        <!-- Kontaktní údaje -->
+        <div
+          class="col-md-3 offset-md-3 d-flex flex-column justify-content-center align-items-center text-bg-primary rounded-5 py-4 mt-3"
+        >
+          <div>
+            <h5>KONTAKT</h5>
+            <div>Veronika Dufková</div>
+            <div>Jirkov 431 11</div>
+            <div>
+              Mobil:
+              <a href="tel:+420776575581" class="text-dark">+420 776 575 581</a>
             </div>
-            <div class="d-flex flex-column align-items-center gap-3 mt-3">
-              <a class="btn btn-secondary text-primary">Detailní ceník</a>
+            <div>
+              E-mail:
+              <a href="mailto:dufiprofi@seznam.cz" class="text-dark"
+                >dufiprofi@seznam.cz</a
+              >
             </div>
+            <div>IČ: 14327228</div>
+          </div>
+        </div>
+
+        <!-- Odkazy na sociální sítě -->
+        <div
+          class="col-md-3 ms-4 d-flex flex-column justify-content-center align-items-center gap-2 text-primary"
+        >
+          <div class="d-flex justify-content-center">
+            <h5>Sledujte mě</h5>
+          </div>
+          <div class="d-flex justify-content-center gap-2">
+            <a
+              href="https://www.facebook.com/profile.php?id=1254131980&sk=photos"
+              target="new"
+              class="me-3"
+              ><i class="fab fa-facebook fa-3x"></i
+            ></a>
+            <a href="https://www.instagram.com/dufiprofi/" target="new">
+              <i class="fab fa-instagram fa-3x"></i
+            ></a>
+          </div>
+          <div class="mt-4">
+            <small>&copy; 2025 | <a href="#">Václav Nekolný</a></small>
           </div>
         </div>
       </div>
-    </div>
-    <!-- end of Modal 1 -->
-    <!-- end of CENÍK modal -->
 
-    <footer class="footer text-bg-dark">
-      <div class="container-xl">
-        <footer class="bg-dark text-light py-4">
-          <div class="row">
-            <!-- Kontaktní údaje -->
-            <div
-              class="col-md-3 offset-md-3 d-flex flex-column justify-content-center align-items-center text-bg-primary rounded-5 py-4 mt-3"
-            >
-              <div>
-                <h5>KONTAKT</h5>
-                <div>Veronika Dufková</div>
-                <div>Jirkov 431 11</div>
-                <div>
-                  Mobil:
-                  <a href="tel:+420776575581" class="text-dark"
-                    >+420 776 575 581</a
-                  >
-                </div>
-                <div>
-                  E-mail:
-                  <a href="mailto:dufiprofi@seznam.cz" class="text-dark"
-                    >dufiprofi@seznam.cz</a
-                  >
-                </div>
-                <div>IČ: 14327228</div>
-              </div>
-            </div>
-
-            <!-- Odkazy na sociální sítě -->
-            <div
-              class="col-md-3 ms-4 d-flex flex-column justify-content-center align-items-center gap-2 text-primary"
-            >
-              <div class="d-flex justify-content-center">
-                <h5>Sledujte mě</h5>
-              </div>
-              <div class="d-flex justify-content-center gap-2">
-                <a
-                  href="https://www.facebook.com/dufi-profi"
-                  target="_blank"
-                  class="me-3"
-                  ><i class="fab fa-facebook fa-3x"></i
-                ></a>
-                <a href="https://www.instagram.com/dufi-profi" target="_blank">
-                  <i class="fab fa-instagram fa-3x"></i
-                ></a>
-              </div>
-              <div class="mt-4">
-                <small>&copy; 2025 | <a href="#">Václav Nekolný</a></small>
-              </div>
-            </div>
-          </div>
-
-          <!-- Spodní část patičky -->
-          <div class="text-center mt-4"></div>
-        </footer>
-      </div>
+      <!-- Spodní část patičky -->
+      <div class="text-center mt-4"></div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>

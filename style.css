@@ -33,8 +33,8 @@ hr {
 }
 
 #slider {
-  width: 90%;
-  margin: 0 auto;
+  width: 65%;
+  height: 65%;
 }
 
 .contact-form {
@@ -42,33 +42,28 @@ hr {
   background-size: cover;
 }
 
-// kompenzace posunu z navbaru
 #sluzby,
 #o_me,
 #portfolio,
-#kontakt,
-#cenik_svatebni,
-#cenik_maturitni,
-#cenik_ostatni {
+#kontakt {
   position: relative;
   top: -110px;
 }
 
-// #cenik {
-//   overflow-y: scroll;
-// }
-
 #cenik {
-  .cenik {
-    background: url("../images/kvetina_top_left.png") no-repeat #fefcf7;
-    background-size: 250px 175px;
-  }
-  .close-button {
-    position: absolute;
-    top: 15px;
-    left: 85%;
-    font-weight: bold;
-  }
+  overflow-y: scroll;
+}
+
+#cenik .cenik {
+  background: url("../images/kvetina_top_left.png") no-repeat #fefcf7;
+  background-size: 250px 175px;
+}
+
+#cenik .close-button {
+  position: absolute;
+  top: 15px;
+  left: 85%;
+  font-weight: bold;
 }
 
 #cenik #accordion h5 {
@@ -78,10 +73,4 @@ hr {
 #cenik #accordion p {
   padding-left: 25px;
   margin-bottom: 20px;
-}
-
-.merriweather-light {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: italic;
 }
