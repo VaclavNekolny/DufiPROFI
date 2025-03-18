@@ -1,15 +1,24 @@
 // Font
 // $font-family-sans-serif: "Open Sans", sans-serif;
 
+// 1. VARIANTA
 $primary: #ead3c4;
 $secondary: #bd7486;
 $dark: #32282a;
 $light: #fefcf7;
 
+// 2. VARIANTA - zkušební
+// $primary: #efafa3;
+// $secondary: #80112c;
+// $dark: #32282a;
+// $light: #fefcf7;
+
 // Navbar
 $navbar-padding-y: 1rem;
+$navbar-nav-link-padding-x: 0.6rem;
 $navbar-dark-color: $primary;
 $navbar-dark-hover-color: $secondary;
+$nav-link-font-size: 1.2rem;
 
 // Buttons
 $button-radius: 50px;
