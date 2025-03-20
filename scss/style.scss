@@ -17,6 +17,10 @@
   padding: 5px;
 }
 
+.navbar-brand img {
+  width: 170px;
+}
+
 .header {
   background: url("../images/hero-background.png") center center no-repeat;
   background-size: cover;
@@ -75,5 +79,15 @@ hr {
   #fotogalerie img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 771px) {
+  .navbar {
+    padding: 5px 20px !important;
+  }
+
+  .navbar-brand img {
+    width: 130px;
   }
 }
