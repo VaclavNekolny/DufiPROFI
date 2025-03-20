@@ -5,6 +5,18 @@
   font-style: normal;
 }
 
+.navbar {
+  transition: all 0.3s ease-in-out;
+  opacity: 90%;
+  padding: 12px;
+  box-shadow: 0px 0px 30px rgba(170, 152, 140, 0.5);
+}
+
+.navbar-shrink {
+  opacity: 100%;
+  padding: 5px;
+}
+
 .header {
   background: url("../images/hero-background.png") center center no-repeat;
   background-size: cover;
@@ -51,7 +63,7 @@ hr {
 #cenik_maturitni,
 #cenik_ostatni {
   position: relative;
-  top: -110px;
+  top: -90px;
 }
 
 #fotogalerie img {
