@@ -35,7 +35,7 @@
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div class="container">
-        <a href="#" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
           <img src="images/logo-transparent.png" alt="" width="170" />
         </a>
         <button
@@ -74,7 +74,10 @@
           </ul>
           <span class="nav-item mx-1">
             <span class="fa-stack">
-              <a href="https://www.facebook.com/profile.php?id=1254131980&sk=photos" target="new">
+              <a
+                href="https://www.facebook.com/profile.php?id=1254131980&sk=photos"
+                target="new"
+              >
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-facebook-f fa-stack-1x text-dark"></i>
               </a>
@@ -93,8 +96,8 @@
     </nav>
 
     <header class="header">
-      <div class="hero pt-8 mb-7">
-        <div class="container-lg">
+      <div class="container-lg">
+        <div class="hero pt-8 mb-7">
           <div class="row">
             <div class="col-md-5">
               <div class="image-container mb-4 pt-4 px-5">
@@ -230,7 +233,7 @@
     <!-- end of  O MĚ -->
     <div id="o_me"></div>
     <section class="about">
-      <div class="container-xl py-5 px-5">
+      <div class="container py-5 px-5">
         <h2>Můj příběh</h2>
         <p class="lh-lg fs-5">
           Jmenuji se Veronika Dufková a vizážistkou nejsem na plný úvazek, ale
@@ -342,7 +345,9 @@
               <div class="visually-hidden">Next</div>
             </div>
           </div>
-          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2">Více fotografií</a>
+          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2"
+            >Více fotografií</a
+          >
         </div>
       </div>
     </section>
@@ -351,79 +356,77 @@
     <!-- KONTAKTNÍ FORMULÁŘ -->
     <div id="kontakt"></div>
     <section class="contact-form">
-      <div class="container-fluid">
-        <div class="container-xl p-5">
-          <div class="row">
-            <div class="col-md-8 offset-md-2 col-sm-12">
-              <h2 class="mb-4">KONTAKTNÍ FORMULÁŘ</h2>
-              <form>
-                <div class="mb-3">
-                  <label for="fullName" class="form-label"
-                    >Jméno a příjmení</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="fullName"
-                    name="fullName"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="eventDate" class="form-label"
-                    >Termín vaší akce</label
-                  >
-                  <input
-                    type="date"
-                    class="form-control"
-                    id="eventDate"
-                    name="eventDate"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="serviceType" class="form-label"
-                    >O jakou službu se jedná</label
-                  >
-                  <select
-                    class="form-select"
-                    id="serviceType"
-                    name="serviceType"
-                    required
-                  >
-                    <option value="svatba">Vizáž na svatbu</option>
-                    <option value="maturitni_ples">
-                      Vizáž na maturitní ples
-                    </option>
-                    <option value="spolecenska_udalost">
-                      Vizáž na společenskou událost
-                    </option>
-                    <option value="foceni">Vizáž na focení</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label">Vaše zpráva</label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    rows="4"
-                    required
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Odeslat</button>
-              </form>
-            </div>
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-sm-12">
+            <h2 class="mb-4">KONTAKTNÍ FORMULÁŘ</h2>
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label"
+                  >Jméno a příjmení</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullName"
+                  name="fullName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="eventDate" class="form-label"
+                  >Termín vaší akce</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="eventDate"
+                  name="eventDate"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="serviceType" class="form-label"
+                  >O jakou službu se jedná</label
+                >
+                <select
+                  class="form-select"
+                  id="serviceType"
+                  name="serviceType"
+                  required
+                >
+                  <option value="svatba">Vizáž na svatbu</option>
+                  <option value="maturitni_ples">
+                    Vizáž na maturitní ples
+                  </option>
+                  <option value="spolecenska_udalost">
+                    Vizáž na společenskou událost
+                  </option>
+                  <option value="foceni">Vizáž na focení</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Vaše zpráva</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Odeslat</button>
+            </form>
           </div>
         </div>
       </div>
@@ -431,11 +434,8 @@
     <!-- end of KONTAKTNÍ FORMULÁŘ -->
 
     <footer class="bg-dark text-light py-4">
-      <div class="row">
-        <!-- Kontaktní údaje -->
-        <div
-          class="col-md-3 offset-md-3 d-flex flex-column justify-content-center align-items-center text-bg-primary rounded-5 py-4 mt-3"
-        >
+      <div class="container">
+        <div class="text-primary">
           <div>
             <h5>KONTAKT</h5>
             <div>Veronika Dufková</div>
@@ -454,32 +454,20 @@
           </div>
         </div>
 
-        <!-- Odkazy na sociální sítě -->
-        <div
-          class="col-md-3 ms-4 d-flex flex-column justify-content-center align-items-center gap-2 text-primary"
-        >
-          <div class="d-flex justify-content-center">
-            <h5>Sledujte mě</h5>
-          </div>
-          <div class="d-flex justify-content-center gap-2">
-            <a
-              href="https://www.facebook.com/profile.php?id=1254131980&sk=photos"
-              target="new"
-              class="me-3"
-              ><i class="fab fa-facebook fa-3x"></i
-            ></a>
-            <a href="https://www.instagram.com/dufiprofi/" target="new">
-              <i class="fab fa-instagram fa-3x"></i
-            ></a>
-          </div>
-          <div class="mt-4">
-            <small>&copy; 2025 | <a href="#">Václav Nekolný</a></small>
-          </div>
+        <div class="ms-4 text-primary">
+          <h5>Sledujte mě</h5>
+          <a
+            href="https://www.facebook.com/profile.php?id=1254131980&sk=photos"
+            target="new"
+            class="me-3"
+            ><i class="fab fa-facebook fa-3x"></i
+          ></a>
+          <a href="https://www.instagram.com/dufiprofi/" target="new">
+            <i class="fab fa-instagram fa-3x"></i
+          ></a>
+          <small>&copy; 2025 | <a href="#">Václav Nekolný</a></small>
         </div>
       </div>
-
-      <!-- Spodní část patičky -->
-      <div class="text-center mt-4"></div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
