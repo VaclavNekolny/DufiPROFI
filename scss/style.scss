@@ -75,13 +75,6 @@ hr {
   border-radius: 6px;
 }
 
-@media (max-width: 576px) {
-  #fotogalerie img {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media (max-width: 771px) {
   .navbar {
     padding: 5px 20px !important;
@@ -89,5 +82,23 @@ hr {
 
   .navbar-brand img {
     width: 130px;
+  }
+
+  #sluzby,
+  #o_me,
+  #portfolio,
+  #kontakt,
+  #cenik_svatebni,
+  #cenik_maturitni,
+  #cenik_ostatni {
+    position: relative;
+    top: -70px;
+  }
+}
+
+@media (max-width: 576px) {
+  #fotogalerie img {
+    width: 100%;
+    height: auto;
   }
 }
