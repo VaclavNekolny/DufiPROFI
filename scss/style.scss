@@ -37,7 +37,7 @@ hr {
 .about {
   background: url("../images/DufiProfi_preklad_dolu.png") top no-repeat;
   background-size: cover;
-  background-position-y: -4px;
+  background-position-y: -8px;
 }
 
 #products .card {
@@ -53,7 +53,8 @@ hr {
   margin: 0 auto;
 }
 
-.contact-form {
+.contact-form,
+.cenik_ostatni {
   background: url("../images/DufiProfi_preklad_nahoru.png") bottom no-repeat;
   background-size: cover;
 }
