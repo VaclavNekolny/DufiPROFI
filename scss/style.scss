@@ -90,7 +90,7 @@ hr {
   }
 
   .hero {
-    padding: 100px 0 0 0 !important;
+    padding-top: 100px !important;
 
     .image-container {
       width: 70vw;
@@ -116,6 +116,11 @@ hr {
   #cenik_ostatni {
     position: relative;
     top: -70px;
+  }
+
+  .cenik,
+  .fotogalerie {
+    padding-top: 90px !important;
   }
 }
 
