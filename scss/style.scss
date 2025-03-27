@@ -26,8 +26,11 @@
   background-size: cover;
 }
 
-.hero img {
-  border-radius: 45px;
+.hero {
+  min-height: 100vh;
+  img {
+    max-height: 75%;
+  }
 }
 
 hr {
