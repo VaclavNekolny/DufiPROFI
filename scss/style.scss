@@ -27,7 +27,7 @@
 }
 
 .hero img {
-  border-radius: 45px;
+  max-height: 75%;
 }
 
 hr {
@@ -76,13 +76,31 @@ hr {
   border-radius: 6px;
 }
 
-@media (max-width: 771px) {
+@media (max-width: 768px) {
+  // nebo 771px??
   .navbar {
     padding: 5px 20px !important;
   }
 
   .navbar-brand img {
     width: 130px;
+  }
+
+  .hero {
+    padding: 90px 0 !important;
+
+    .image-container {
+      width: 70vw;
+      height: 50vw;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 30%;
+      }
+    }
   }
 
   #sluzby,
@@ -101,5 +119,24 @@ hr {
   #fotogalerie img {
     width: 100%;
     height: auto;
+  }
+
+  .hero {
+    .image-container {
+      margin: 0;
+    }
+    .text-container {
+      padding: 5px !important;
+    }
+
+    #hlavni_nadpis {
+      margin: 0 0 10px 0 !important;
+    }
+
+    #hlavni_popis {
+      font-size: 1rem !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
   }
 }
