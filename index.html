@@ -3,29 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- FONT Playfair Display -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- FONT Lato -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-    rel="stylesheet"
-    /> -->
-
-    <!-- FONT Merriweather -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-    </style>
-    <!-- end of FONT Merriweather -->
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -120,7 +97,7 @@
                 class="text-container text-center p-4 d-flex flex-column justify-content-center mb-3"
               >
                 <h1
-                  class="merriweather-light display-3 mb-4"
+                  class="display-3 mb-4"
                   id="hlavni_nadpis"
                 >
                   Vítejte na stránkách DufiProfi
@@ -154,14 +131,16 @@
       <div class="container-fluid text-bg-dark pt-5 pb-6">
         <div class="container-xl">
           <h2 class="text-primary ms-4 mb-5">Služby</h2>
-          <div class="row hstack g-5">
-            <div class="col-md-4">
+          <div class="row g-4">
+            <div class="col-10 offset-1 col-md-4 offset-md-0">
               <a href="cenik.html#cenik_svatebni" class="text-decoration-none">
                 <div class="card bg-light rounded-5">
                   <img
                     class="card-img-top rounded-top-5"
-                    src="images/produkty_placeholder1.png"
+                    src="images/products1.png"
                     alt="Svatební líčení"
+                    style="object-fit: cover; object-position: center"
+                    height="230"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Svatební líčení a účes</h5>
@@ -174,13 +153,15 @@
               </a>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-10 offset-1 col-md-4 offset-md-0">
               <a href="cenik.html#cenik_ostatni" class="text-decoration-none">
                 <div class="card bg-light rounded-5">
                   <img
                     class="card-img-top rounded-top-5"
-                    src="images/produkty_placeholder2.webp"
+                    src="images/products2.JPG"
                     alt="Vizáž na společenskou akci"
+                    style="object-fit: cover; object-position: center"
+                    height="230"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Vizáž na společenskou akci</h5>
@@ -193,13 +174,15 @@
               </a>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-10 offset-1 col-md-4 offset-md-0">
               <a href="cenik.html#cenik_maturitni" class="text-decoration-none">
                 <div class="card bg-light rounded-5">
                   <img
                     class="card-img-top rounded-top-5"
-                    src="images/produkty_placeholder3.png"
+                    src="images/products3.webp"
                     alt="Líčení a účes na maturák"
+                    style="object-fit: cover; object-position: center"
+                    height="230" 
                   />
                   <div class="card-body">
                     <h5 class="card-title">Líčení a účes na maturitní ples</h5>
@@ -211,23 +194,22 @@
                 </div>
               </a>
             </div>
-          </div>
-          <div class="text-container mt-5">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-8">
+
+            <div class="col-10 offset-1">
+              <div class="text-container text-center">
                 <p class="lead text-primary">
                   Ráda Vás přichystám na jakoukoliv příležitost, ať jste
                   nevěsta, maturantka, nebo žena, co chce zářit.
                 </p>
               </div>
-              <div class="col-md-4 d-flex justify-content-center">
-                <a
-                  href="cenik.html"
-                  class="btn btn-lg btn-primary text-dark px-6"
-                >
-                  Ceník
-                </a>
-              </div>
+            </div>
+            <div class="col-10 offset-1 col-md-6 offset-md-3">
+              <a
+                href="cenik.html"
+                class="btn btn-lg btn-primary text-dark d-block"
+              >
+                Ceník
+              </a>
             </div>
           </div>
         </div>
@@ -278,7 +260,7 @@
         <div class="container-xl py-5 d-flex flex-column align-items-center">
           <!-- IMAGE SLIDER -->
           <div class="row">
-            <div class="col-md-8 offset-md-2 col-10 offset-1">
+            <div class="col-12 col-md-8 offset-md-2">
               <div
                 id="slider"
                 class="carousel slide my-3"
@@ -359,10 +341,14 @@
                 </div>
               </div>
             </div>
+            <div class="col-10 offset-1 col-md-6 offset-md-3">
+              <a
+                href="fotogalerie.html"
+                class="btn btn-primary btn-lg mt-2 d-block"
+                >Více fotografií</a
+              >
+            </div>
           </div>
-          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2"
-            >Více fotografií</a
-          >
         </div>
       </div>
     </section>

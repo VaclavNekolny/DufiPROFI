@@ -12,10 +12,11 @@ function userScroll() {
 
 document.addEventListener("DOMContentLoaded", userScroll);
 
-// Zavření collapse menu po kliknutí na odkaz .nav-link
+// Zavření collapse menu po kliknutí na odkaz .nav-link a .navbar-brand
 document.addEventListener("DOMContentLoaded", function () {
   const navbarCollapse = document.querySelector(".navbar-collapse");
   const navLinks = document.querySelectorAll(".nav-link");
+  const navbarBrand = document.querySelector(".navbar-brand");
 
   navLinks.forEach(function (link) {
     link.addEventListener("click", function () {
@@ -23,5 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
         new bootstrap.Collapse(navbarCollapse, { toggle: true });
       }
     });
+  });
+
+  navbarBrand.addEventListener("click", function () {
+    if (navbarCollapse.classList.contains("show")) {
+      new bootstrap.Collapse(navbarCollapse, { toggle: true });
+    }
   });
 });
