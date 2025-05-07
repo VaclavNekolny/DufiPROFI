@@ -1,0 +1,72 @@
+    <section id="fotogalerie" class="fotogalerie py-8">
+      <div class="container">
+        <div class="d-flex flex-row flex-wrap align-items-center gap-3 mb-5">
+          <h1 class="me-5">
+            <a class="text-decoration-none text-dark" href="fotogalerie.html"
+              >Fotogalerie</a
+            >
+          </h1>
+          <div class="d-flex flex-row flex-wrap gap-3">
+            <a href="?page=portfolio&filtr=nevesta" class="btn btn-primary btn-sm">nevěsta</a>
+            <a href="maturitni.html" class="btn btn-primary btn-sm"
+              >maturantka</a
+            >
+            <a href="ucesy.html" class="btn btn-primary btn-sm">účesy</a>
+            <a href="liceni.html" class="btn btn-primary btn-sm">líčení</a>
+            <a href="ostatni.html" class="btn btn-primary btn-sm">ostatní</a>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-around gap-3">
+          <a href="../gallery/ucesy/ucesy001.jpg" data-lightbox="fotogalerie"
+            ><img src="../gallery/ucesy/small/ucesy001_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy002.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy002_small.jpg"
+          /></a>
+          <a href="./gallery/ostatni/ostatni005.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ostatni/small/ostatni005_small.jpg"
+          /></a>
+
+          <a href="./gallery/ostatni/ostatni003.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ostatni/small/ostatni003_small.jpg"
+          /></a>
+          <a
+            href="./gallery/maturitni/maturitni003.jpg"
+            data-lightbox="fotogalerie"
+            ><img src="./gallery/maturitni/small/maturitni003_small.jpg"
+          /></a>
+
+          <a href="./gallery/ucesy/ucesy003.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy003_small.jpg"
+          /></a>
+
+          <a href="./gallery/ucesy/ucesy004.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy004_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy005.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy005_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy006.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy006_small.jpg"
+          /></a>
+
+          <a href="./gallery/ucesy/ucesy007.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy007_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy008.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy008_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy009.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy009_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy011.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy011_small.jpg"
+          /></a>
+          <a href="./gallery/ucesy/ucesy010.jpg" data-lightbox="fotogalerie"
+            ><img src="./gallery/ucesy/small/ucesy010_small.jpg"
+          /></a>
+        </div>
+      </div>
+    </section>
+    
+    <script src="js/lightbox-plus-jquery.js"></script>
