@@ -24,6 +24,15 @@
     <!-- FONT Merriweather -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+      .box {
+        border: 1px solid #ccc;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 10px;
+      }
+      .box h5 {
+        font-weight: bold;
+      }
     </style>
     <!-- end of FONT Merriweather -->
     <link rel="stylesheet" href="css/fontawesome.css" />
@@ -102,70 +111,138 @@
 
     <header class="header">
       <div class="container-lg cenik pt-7 pb-5">
-        <h1>Ceník služeb</h1>
+        <!-- <h1>Služby</h1> -->
+        <div class="container py-4">
+          <!-- První řada: SLUŽBY a CENÍK -->
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box">
+                <h2>NEVĚSTA</h2>
+                <p>
+                  Budete mít svatbu a sháníte vizážistku pro Váš den D? Jste tu
+                  správně. Líčení a účes přizpůsobím Vašim představám, abyste se
+                  cítila krásně a zároveň komfortně.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box">
+                <h5>CENÍK</h5>
+                <p>
+                  Nevěsta zkouška líčení a účesu
+                  <span class="float-end">2 000 Kč</span><br />
+                  Nevěsta ve svatební den <span class="float-end">4 000 Kč</span
+                  ><br />
+                  Svatebčanky <span class="float-end">1 000 – 2 000 Kč</span>
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="d-flex flex-column gap-6">
-          <div>
-            <div id="cenik_svatebni"></div>
-            <h3 class="mt-3">Svatební líčení</h3>
-            <p class="mb-5">Informace o svatebním líčení... <br /></p>
-            <ul class="list-unstyled">
-              <li>prvni informace</li>
-              <li>druhá informace</li>
-              <li>třetí informace</li>
-            </ul>
-            <p>
-              ... ... Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium voluptate suscipit rem sunt quas velit aliquid
-              aspernatur explicabo doloremque voluptas aperiam consectetur
-              expedita natus quam, obcaecati ipsa adipisci nulla voluptates
-              quibusdam ipsum minus. Iste, atque? Ipsam aperiam mollitia autem,
-              iusto corrupti dolore odit fugit eius nisi possimus, molestias
-              recusandae cum beatae? Nesciunt animi repudiandae recusandae nihil
-              praesentium voluptatem vel dicta vitae sapiente? Labore deserunt
-              reiciendis voluptatibus neque cum consequatur accusantium,
-              aspernatur placeat. Molestiae cumque doloribus repellendus saepe
-              amet. Perferendis nisi voluptate et possimus. Perspiciatis
-              assumenda ad ut recusandae accusamus asperiores dicta animi quis
-              magni odit obcaecati reprehenderit ipsa adipisci, odio hic.
-              Doloremque corporis esse eveniet est totam quae ipsum. Autem quas
-              totam quia fugit repellendus cum, blanditiis commodi debitis,
-              nihil beatae praesentium, ullam quo! Tempore earum modi facilis
-              assumenda eos magni quod laboriosam vero iste nihil, reiciendis
-              neque? Nulla, ullam? Dicta architecto ipsum aspernatur neque fuga
-              ab consequatur nihil perspiciatis!
-            </p>
-            <h5>Svatební ceník</h5>
-            <table class="table table-hover table-primary">
-              <thead>
-                <tr>
-                  <th scope="col">Produkt</th>
-                  <th scope="col">Detail</th>
-                  <th scope="col">Cena</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td colspan="2">Larry the Bird</td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    další informace o produktu svatební líčení
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- Druhá řada: REZERVACE -->
+          <div class="row">
+            <div class="col-12">
+              <div class="box">
+                <h5>Rezervace termínu</h5>
+                <p>
+                  V případě zájmu o mé služby se prosím předem seznamte s mým
+                  ceníkem. Dalším krokem bude rezervace svatebního termínu a
+                  zkoušky. Zkoušku považuji za velmi důležitou část Vaší
+                  přípravy na svatební den, proto si na ni udělejte čas a
+                  připravte se na ni. Abych měla jistotu, že s Vámi mohu
+                  počítat, je nutné zaslat převodem na účet nevratný rezervační
+                  poplatek ve výši 1 000 Kč do dvou pracovních dnů od písemné či
+                  telefonické domluvy. Tento poplatek se odečítá z konečné
+                  částky za svatební zkoušku. Zkouška probíhá v Jirkově cca
+                  měsíc před Vaším svatebním dnem. Pro snazší komunikaci mi
+                  prosím sdělte termín a místo svatby, popřípadě místo Vašich
+                  svatebních příprav, v kolik hodin budete mít obřad a
+                  popřípadě, kolik dalších osob bude mít zájem o vizáž.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="accordion accordion-flush my-4"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Jak se připravit na zkoušku svatebního líčení a účesu?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Přijďte nenalíčená. Vlasy si umyjte dle vašich zvyklostí,
+                    avšak nepoužívejte žádné stylingové produkty. Vhodné je mít
+                    bílý vršek, a pokud máte vybrané šperky, vlasové ozdoby,
+                    závoj, přineste si je s sebou. Na zkoušku si vynahraďte
+                    opravdu dostatek času, minimálně 180 minut a nikam
+                    nespěchejte.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Jaký styl make-upu a účesu si vybrat na svatbu?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Mám pro Vás takové malé doporučení. Hledejte inspiraci
+                      líčení a účesů na podobných typech, jako jste vy a mějte
+                      reálná očekávání. Profesionálně upravené fotky na
+                      internetu mohou realitu dost zkreslovat.
+                    </p>
+                    <p>
+                      A než začnete vybírat inspiraci na Pinterestu a sociálních
+                      sítích, zamyslete se nad tím, jaká jste Vy? Chodíte běžně
+                      nenalíčená? Pravděpodobně se budete cítit lépe v něčem
+                      jemném a decentním. Běžně se líčíte, nebojíte se být
+                      výrazná a cítíte se v tom dobře? Tak směle do toho, už
+                      dávno neplatí, že nevěsta musí být jen jemná. Nemáte ráda
+                      rozpuštěné vlasy? Pravděpodobně to tak bude i v den vaší
+                      svatby.
+                    </p>
+                    <p>
+                      Dalším kritériem pro výběr vašeho účesu může být termín
+                      svatby nebo střih šatů. Letní horké dny nebo holá záda
+                      vybízejí spíše k sepnutým vlasům. Pamatujte si však toto:
+                      výdrž účesu ve velké míře může ovlivnit silné pocení,
+                      teplý den, vlhký vzduch, déšť, silný vítr a v neposlední
+                      řadě kvalita vašich vlasů (hustota, délka, textura). Ale
+                      ničeho se nebojte, se vším Vám ráda poradím.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -178,55 +255,63 @@
       >
         <div class="container-lg">
           <div id="cenik_maturitni"></div>
-          <div>
-            <h3 class="mb-4">Maturitní líčení</h3>
-            <p class="mb-5">Informace o maturitním líčení líčení...</p>
-            <ul class="list-unstyled">
-              <li>prvni informace</li>
-              <li>druhá informace</li>
-              <li>třetí informace</li>
-            </ul>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae quos quod illo sint a ratione? Sed ea, expedita iure
-              at mollitia dolorum omnis culpa accusantium dignissimos ducimus
-              neque autem fugiat. Earum aliquam autem debitis? Consequuntur
-              officia obcaecati adipisci aperiam, numquam soluta architecto
-              sequi aut repudiandae qui! Deleniti culpa quas in fuga
-              reprehenderit nemo modi sed ut, harum iste, laborum suscipit quam
-              dolore! Doloribus excepturi eveniet consequuntur modi libero.
-            </p>
-            <h5>Maturitní ceník</h5>
-            <table class="table table-hover table-primary">
-              <thead>
-                <tr>
-                  <th scope="col">Produkt</th>
-                  <th scope="col">Detail</th>
-                  <th scope="col">Cena</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td colspan="2">Larry the Bird</td>
-                </tr>
-                <tr>
-                  <td colspan="3">
-                    další informace o produktu svatební líčení
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- První řada: SLUŽBY a CENÍK -->
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box">
+                <h2>MATURANTKA</h2>
+                <p>
+                  Čeká Tě maturitní ples a chceš mít luxusní make-up a účes
+                  hodný této události? Máš jasnou vizi o tom, jak se chceš
+                  v tento den cítit a vypadat? Nebo chceš s líčením i účesem
+                  poradit? Vše je možné.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box">
+                <h5>CENÍK</h5>
+                <p>
+                  Maturantka zkouška líčení a účesu
+                  <span class="float-end">1 500 Kč</span><br />
+                  Maturantka v den plesu
+                  <span class="float-end">2 000 - 3 000 Kč</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Druhá řada: MATURANTKA -->
+          <div class="row">
+            <div class="col-12">
+              <div class="box">
+                <h5>Maturantka</h5>
+                <p>
+                  Maturitní ples je pro každou slečnu důležitý okamžik. Chce
+                  zářit nejen na parketu, ale i v očích všech přihlížejících.
+                  Mojí vášní je podtrhnout přirozenou krásu každé maturantky a
+                  vytvořit jí líčení i účes, ve kterém se bude cítit sebevědomě,
+                  elegantně a jedinečně. Ať už toužíš po jemném romantickém
+                  looku, nebo výrazném glam stylu, společně vytvoříme styling,
+                  který vystihne právě Tebe.
+                </p>
+                <p>
+                  Na maturitní ples budeš vzpomínat celý život, tak si dopřej
+                  péči a svěř se do rukou vizážistky. Nabízím profesionální
+                  přístup a příjemnou atmosféru, ve které se můžeš uvolnit a
+                  nechat se hýčkat.
+                </p>
+                <p>
+                  Termíny na plesovou sezónu se rychle plní, pokud chceš mít
+                  jistotu, že ten den budu mít čas právě pro Tebe, ozvi se mi
+                  včas.
+                </p>
+                <p>
+                  Stačí mi zavolat či napsat do zpráv třeba na Instagramu nebo
+                  vyplň formulář zde na webu. Těším se na spolupráci.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -235,42 +320,68 @@
     <section class="cenik_ostatni py-6">
       <div class="container-lg">
         <div id="cenik_ostatni"></div>
-        <div>
-          <h3 class="mb-4">Focení/kulturní akce</h3>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            incidunt molestias veniam enim, porro nostrum quibusdam officiis
-            optio aperiam ratione ab perferendis, aspernatur, tenetur provident
-            iste quam ipsam non vitae....
-          </p>
-          <table class="table table-hover table-primary">
-            <thead>
-              <tr>
-                <th scope="col">Produkt</th>
-                <th scope="col">Detail</th>
-                <th scope="col">Cena</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-              </tr>
-              <tr>
-                <td colspan="3">další informace o produktu svatební líčení</td>
-              </tr>
-            </tbody>
-          </table>
+
+        <!-- První řada: SLUŽBY a CENÍK -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="box">
+              <h2>SPOLEČENSKÁ UDÁLOST</h2>
+              <p>
+                Čeká Tě maturitní ples a chceš mít luxusní make-up a účes hodný
+                této události? Máš jasnou vizi o tom, jak se chceš v tento den
+                cítit a vypadat? Nebo chceš s líčením i účesem poradit? Vše je
+                možné.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box">
+              <h5>CENÍK</h5>
+              <p>
+                Líčení a účes
+                <span class="float-end">2 000 – 3 000 Kč</span><br />
+                Líčení samostatně
+                <span class="float-end">1 000 - 1 500 Kč</span><br />
+                Účes samostatně
+                <span class="float-end">1 000 - 1 500 Kč</span><br />
+                Zkouška
+                <span class="float-end">2 000 Kč</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Druhá řada: MATURANTKA -->
+        <div class="row">
+          <div class="col-12">
+            <div class="box">
+              <h5>Společenská událost</h5>
+              <p>
+                Maturitní ples je pro každou slečnu důležitý okamžik. Chce zářit
+                nejen na parketu, ale i v očích všech přihlížejících. Mojí vášní
+                je podtrhnout přirozenou krásu každé maturantky a vytvořit jí
+                líčení i účes, ve kterém se bude cítit sebevědomě, elegantně a
+                jedinečně. Ať už toužíš po jemném romantickém looku, nebo
+                výrazném glam stylu, společně vytvoříme styling, který vystihne
+                právě Tebe.
+              </p>
+              <p>
+                Na maturitní ples budeš vzpomínat celý život, tak si dopřej péči
+                a svěř se do rukou vizážistky. Nabízím profesionální přístup a
+                příjemnou atmosféru, ve které se můžeš uvolnit a nechat se
+                hýčkat.
+              </p>
+              <p>
+                Termíny na plesovou sezónu se rychle plní, pokud chceš mít
+                jistotu, že ten den budu mít čas právě pro Tebe, ozvi se mi
+                včas.
+              </p>
+              <p>
+                Stačí mi zavolat či napsat do zpráv třeba na Instagramu nebo
+                vyplň formulář zde na webu. Těším se na spolupráci.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
