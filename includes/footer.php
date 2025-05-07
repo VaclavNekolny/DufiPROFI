@@ -60,6 +60,75 @@
       </div>
     </footer>
 
+
+<!-- CENÍK modal-->
+<div
+  class="modal fade"
+  id="cenikModal"
+  tabindex="-1"
+  aria-labelledby="cenikModalLabel"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+  >
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title" id="cenikModalLabel">Ceník služeb</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Zavřít"
+        ></button>
+      </div>
+      <div class="modal-body bg-primary">
+        <h6 class="mt-3">JEDNOTLIVÉ SLUŽBY</h6>
+        <hr />
+        <strong>NĚVĚSTA</strong><br />
+        Nevěsta zkouška líčení a účesu
+        <span class="float-end">2 000 Kč</span><br />
+        Nevěsta ve svatební den <span class="float-end">4 000 Kč</span><br />
+        Svatebčanky <span class="float-end">1 000 – 2 000 Kč</span><br /><br />
+
+        <strong>MATURANTKA</strong><br />
+        Maturantka zkouška líčení a účesu
+        <span class="float-end">1 500 Kč</span><br />
+        Maturantka v den plesu
+        <span class="float-end">2 000 – 3 000 Kč</span><br /><br />
+
+        <strong>SPOLEČENSKÁ UDÁLOST</strong><br />
+        (plesy, večírky, narozeniny, focení)<br />
+        Líčení a účes <span class="float-end">2 000 – 3 000 Kč</span><br />
+        Líčení samostatně <span class="float-end">1 000 - 1 500 Kč</span><br />
+        Účes samostatně <span class="float-end">1 000 - 1 500 Kč</span><br />
+        Zkouška <span class="float-end">2 000 Kč</span><br /><br />
+
+        <h6 class="mt-4">DALŠÍ INFORMACE</h6>
+        <hr />
+        <strong>CESTOVNÉ</strong> <span class="float-end">10 Kč/km</span><br />
+        <small
+          >Cestovné je počítáno tam i zpět. Do cestovného je zahrnuto i
+          parkovné.<br />
+          Jezdím po celém Ústeckém kraji, po domluvě i mimo.</small
+        ><br /><br />
+
+        <strong>REZERVAČNÍ POPLATEK</strong>
+        <span class="float-end">1 000 Kč</span><br />
+        <small
+          >Rezervační poplatek je nevratný. Tento poplatek se odečítá z finální
+          částky za služby.</small
+        ><br /><br />
+
+        <strong>CENY SLUŽEB</strong><br />
+        <small>Odvíjejí se od náročnosti a spotřebovaného materiálu.</small>
+      </div>
+      <div class="modal-footer bg-primary justify-content-center">
+        <button type="button" class="btn btn-outline-dark">Služby</button>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
