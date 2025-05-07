@@ -42,7 +42,7 @@
               <h5>Sledujte&nbsp;mě</h5>
               <div>
                 <a
-                  href="https://www.facebook.com/profile.php?id=1254131980&sk=photos"
+                  href="https://www.facebook.com/profile.php?id=100083148499662"
                   target="new"
                   class="me-3"
                   ><i class="fab fa-facebook fa-3x"></i
