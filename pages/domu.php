@@ -8,15 +8,13 @@
               <img
                 src="images/hero/small/hero000_small.jpg"
                 alt=""
-                class="img-fluid img-thumbnail bg-light rounded-5 p-2"
-              />
+                class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
             </div>
           </div>
         </div>
         <div class="col-md-7">
           <div
-            class="text-container text-center p-4 d-flex flex-column justify-content-center mb-3"
-          >
+            class="text-container text-center p-4 d-flex flex-column justify-content-center mb-3">
             <h1 class="display-3 mb-4" id="hlavni_nadpis">
               Krása, ve které se budete cítit sama sebou
             </h1>
@@ -63,8 +61,7 @@
                 src="images/products1.png"
                 alt="Svatební líčení"
                 style="object-fit: cover; object-position: center"
-                height="230"
-              />
+                height="230" />
               <div class="card-body">
                 <h5 class="card-title">Nevěsta</h5>
                 <p class="card-text">
@@ -85,8 +82,7 @@
                 src="images/products2.JPG"
                 alt="Vizáž na společenskou akci"
                 style="object-fit: cover; object-position: center"
-                height="230"
-              />
+                height="230" />
               <div class="card-body">
                 <h5 class="card-title">Maturantka</h5>
                 <p class="card-text bg-white">
@@ -108,8 +104,7 @@
                 src="images/products3.webp"
                 alt="Líčení a účes na maturák"
                 style="object-fit: cover; object-position: center"
-                height="230"
-              />
+                height="230" />
               <div class="card-body">
                 <h5 class="card-title">Společenská událost</h5>
                 <p class="card-text">
@@ -135,8 +130,7 @@
           <a
             class="btn btn-lg btn-primary text-dark d-block"
             data-bs-toggle="modal"
-            data-bs-target="#cenikModal"
-          >
+            data-bs-target="#cenikModal">
             Ceník
           </a>
         </div>
@@ -150,32 +144,38 @@
 
 <!-- end of  O MĚ -->
 <div id="o_me"></div>
-<section class="about">
-  <div class="container py-5 px-5">
-    <h2>Můj příběh</h2>
-    <p class="lh-lg fs-5">
-      Jmenuji se Veronika Dufková a vizážistkou nejsem na plný úvazek, ale je to
-      jeden z mých koníčků. Jak jsem se k tomu dostala? Pamatuji si, že už jako
-      malá holka jsem babičce nandávala natáčky a hrála si na kadeřnici, mamce
-      jsem potají lezla do kosmetického kufříku a zkoušela, co šminky umí.
-    </p>
+<section class="container py-6" id="about-me">
+  <div class="row align-items-center">
+    <!-- Text -->
+    <div class="col-md-7">
+      <h2 class="mb-4">Můj příběh</h2>
 
-    <p class="lh-lg fs-5">
-      Kdy se to přetavilo v „práci“? Už to bude nějaký ten pátek. Vše vyplynulo
-      tak organicky, že to na časové ose nedokážu přesně určit. Nejdříve jsem
-      líčila zcela zdarma mé kamarádky, pak kamarádky mých kamarádek a najednou
-      se mi začaly ozývat neznámé ženy a poptávaly mé služby.
-    </p>
+      <p>
+        Jmenuji se Veronika Dufková a vizážistkou nejsem na plný úvazek, ale je to jeden z mých koníčků.
+        Jak jsem se k tomu dostala? Pamatuji si, že už jako malá holka jsem babičce nandávala natáčky a hrála si
+        na kadeřnici, mamce jsem potají lezla do kosmetického kufříku a zkoušela, co šminky umí.
+      </p>
 
-    <p class="lh-lg fs-5">
-      Tak jsem si zajela do Prahy, do make-upové školy, udělat si nějaké ty
-      kurzy. Pak jsem si zajela na kurzy přímo k mým oblíbeným vizážistkám,
-      abych načerpala novou inspiraci, nové dovednosti, vědomosti, a byla pro
-      Vás lepší a lepší.
-    </p>
-    <p class="lh-lg fs-5 fw-bold">
-      A pokud se potkáme osobně, ráda Vám povyprávím více.
-    </p>
+      <p>
+        Kdy se to přetavilo v „práci“? Už to bude nějaký ten pátek. Vše vyplynulo tak organicky, že to na časové ose
+        nedokážu přesně určit. Nejdříve jsem líčila zcela zdarma mé kamarádky, pak kamarádky mých kamarádek a najednou
+        se mi začaly ozývat neznámé ženy a poptávaly mé služby.
+      </p>
+
+      <p>
+        Tak jsem si zajela do Prahy, do make-upové školy, udělat si nějaké ty kurzy. Pak jsem si zajela na kurzy přímo
+        k mým oblíbeným vizážistkám, abych načerpala novou inspiraci, nové dovednosti, vědomosti, a byla pro Vás lepší a lepší.
+      </p>
+      <p><strong>A pokud se potkáme osobně, ráda Vám povyprávím více.</strong>
+      </p>
+    </div>
+
+    <!-- Obrázek -->
+    <div class="col-md-5 text-center">
+      <img id="profilove_foto" src="../images/profilove_foto.jpg" alt="Profilový obrázek Veroniky Dufkové"
+        class="img-fluid rounded-5 shadow" style="max-width: 220px;">
+    </div>
+
   </div>
 </section>
 
@@ -196,51 +196,43 @@
                 data-bs-slide-to="0"
                 data-bs-target="#slider"
                 aria-current="true"
-                aria-label="Slide 1"
-              ></button>
+                aria-label="Slide 1"></button>
               <button
                 type="button"
                 data-bs-slide-to="1"
                 data-bs-target="#slider"
-                aria-label="Slide 2"
-              ></button>
+                aria-label="Slide 2"></button>
               <button
                 type="button"
                 data-bs-slide-to="2"
                 data-bs-target="#slider"
-                aria-label="Slide 3"
-              ></button>
+                aria-label="Slide 3"></button>
               <button
                 type="button"
                 data-bs-slide-to="3"
                 data-bs-target="#slider"
-                aria-label="Slide 4"
-              ></button>
+                aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner rounded-5">
               <div class="carousel-item active">
                 <img
                   src="/images/portfolio_placeholder5.jpg"
-                  class="d-block w-100 rounded-5"
-                />
+                  class="d-block w-100 rounded-5" />
               </div>
               <div class="carousel-item">
                 <img
                   src="/images/portfolio_placeholder7.jpg"
-                  class="d-block w-100 rounded-5"
-                />
+                  class="d-block w-100 rounded-5" />
               </div>
               <div class="carousel-item">
                 <img
                   src="/images/portfolio_placeholder3.jpg"
-                  class="d-block w-100 rounded-5"
-                />
+                  class="d-block w-100 rounded-5" />
               </div>
               <div class="carousel-item">
                 <img
                   src="/images/portfolio_placeholder1.jpg"
-                  class="d-block w-100 rounded-5"
-                />
+                  class="d-block w-100 rounded-5" />
               </div>
             </div>
             <!-- buttons -->
@@ -248,8 +240,7 @@
               class="carousel-control-prev"
               type="button"
               data-bs-slide="prev"
-              data-bs-target="#slider"
-            >
+              data-bs-target="#slider">
               <span class="carousel-control-prev-icon"></span>
               <div class="visually-hidden">Previous</div>
             </div>
@@ -257,17 +248,14 @@
               class="carousel-control-next"
               type="button"
               data-bs-slide="next"
-              data-bs-target="#slider"
-            >
+              data-bs-target="#slider">
               <span class="carousel-control-next-icon"></span>
               <div class="visually-hidden">Next</div>
             </div>
           </div>
         </div>
         <div class="col-10 offset-1 col-md-6 offset-md-3">
-          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2 d-block"
-            >Více fotografií</a
-          >
+          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2 d-block">Více fotografií</a>
         </div>
       </div>
     </div>
@@ -290,8 +278,7 @@
               class="form-control"
               id="fullName"
               name="fullName"
-              required
-            />
+              required />
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
@@ -300,8 +287,7 @@
               class="form-control"
               id="email"
               name="email"
-              required
-            />
+              required />
           </div>
           <div class="mb-3">
             <label for="eventDate" class="form-label">Termín vaší akce</label>
@@ -310,19 +296,15 @@
               class="form-control"
               id="eventDate"
               name="eventDate"
-              required
-            />
+              required />
           </div>
           <div class="mb-3">
-            <label for="serviceType" class="form-label"
-              >O jakou službu se jedná</label
-            >
+            <label for="serviceType" class="form-label">O jakou službu se jedná</label>
             <select
               class="form-select"
               id="serviceType"
               name="serviceType"
-              required
-            >
+              required>
               <option value="nevesta">Vizáž pro nevěstu</option>
               <option value="maturantka">Vizáž pro maturantku</option>
               <option value="spolecenska_udalost">
@@ -338,8 +320,7 @@
               name="message"
               rows="4"
               placeholder="Napište mi prosím své dotazy a přání, urychlíte tím naši komunikaci. Děkuji, Veronika"
-              required
-            ></textarea>
+              required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Odeslat</button>
         </form>
