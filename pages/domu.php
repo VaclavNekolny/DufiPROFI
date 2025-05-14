@@ -324,7 +324,7 @@
     <div class="row">
       <div class="col-md-8 offset-md-2 col-sm-12">
         <h2 class="mb-4">KONTAKTNÍ FORMULÁŘ</h2>
-        <form>
+        <form action="send-mail.php" method="POST">
           <div class="mb-3">
             <label for="fullName" class="form-label">Jméno a příjmení</label>
             <input
