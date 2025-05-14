@@ -19,10 +19,9 @@
                 <h5>CENÍK</h5>
                 <p>
                   Nevěsta zkouška líčení a účesu
-                  <span class="float-end">2 000 Kč</span><br />
-                  Nevěsta ve svatební den <span class="float-end">4 000 Kč</span
-                  ><br />
-                  Svatebčanky <span class="float-end">1 000 – 2 000 Kč</span>
+                  <span class="float-end fw-bold">2 000 Kč</span><br />
+                  Nevěsta ve svatební den <span class="float-end fw-bold">4 000 Kč</span><br />
+                  Svatebčanky <span class="float-end fw-bold">1 000 – 2 000 Kč</span>
                 </p>
               </div>
             </div>
@@ -54,26 +53,23 @@
           <div class="row">
             <div
               class="accordion accordion-flush my-4"
-              id="accordionFlushExample"
-            >
+              id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button collapsed  fw-bold"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
                     aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
+                    aria-controls="flush-collapseOne">
                     Jak se připravit na zkoušku svatebního líčení a účesu?
                   </button>
                 </h2>
                 <div
                   id="flush-collapseOne"
                   class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
+                  data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     Přijďte nenalíčená. Vlasy si umyjte dle vašich zvyklostí,
                     avšak nepoužívejte žádné stylingové produkty. Vhodné je mít
@@ -87,21 +83,19 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button collapsed fw-bold"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
                     aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
+                    aria-controls="flush-collapseTwo">
                     Jaký styl make-upu a účesu si vybrat na svatbu?
                   </button>
                 </h2>
                 <div
                   id="flush-collapseTwo"
                   class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
+                  data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p>
                       Mám pro Vás takové malé doporučení. Hledejte inspiraci
@@ -137,13 +131,13 @@
       </div>
     </header>
 
+    <div id="maturantka"></div>
+    <br>
     <section>
       <div
         class="container-fluid bg-primary text-dark py-6"
-        style="position: relative; z-index: 10; box-shadow: 0 0 40px #b8aca1"
-      >
+        style="position: relative; z-index: 10; box-shadow: 0 0 40px #b8aca1">
         <div class="container-lg">
-          <div id="cenik_maturitni"></div>
           <!-- První řada: SLUŽBY a CENÍK -->
           <div class="row">
             <div class="col-lg-6">
@@ -162,9 +156,9 @@
                 <h5>CENÍK</h5>
                 <p>
                   Maturantka zkouška líčení a účesu
-                  <span class="float-end">1 500 Kč</span><br />
+                  <span class="float-end fw-bold">1 500 Kč</span><br />
                   Maturantka v den plesu
-                  <span class="float-end">2 000 - 3 000 Kč</span>
+                  <span class="float-end fw-bold">2 000 - 3 000 Kč</span>
                 </p>
               </div>
             </div>
@@ -208,7 +202,7 @@
 
     <section class="cenik_ostatni py-6">
       <div class="container-lg">
-        <div id="cenik_ostatni"></div>
+        <div id="udalost"></div>
 
         <!-- První řada: SLUŽBY a CENÍK -->
         <div class="row">
@@ -228,13 +222,13 @@
               <h5>CENÍK</h5>
               <p>
                 Líčení a účes
-                <span class="float-end">2 000 – 3 000 Kč</span><br />
+                <span class="float-end fw-bold">2 000 – 3 000 Kč</span><br />
                 Líčení samostatně
-                <span class="float-end">1 000 - 1 500 Kč</span><br />
+                <span class="float-end fw-bold">1 000 - 1 500 Kč</span><br />
                 Účes samostatně
-                <span class="float-end">1 000 - 1 500 Kč</span><br />
+                <span class="float-end fw-bold">1 000 - 1 500 Kč</span><br />
                 Zkouška
-                <span class="float-end">2 000 Kč</span>
+                <span class="float-end fw-bold">2 000 Kč</span>
               </p>
             </div>
           </div>

@@ -108,7 +108,7 @@
       <h2 class="text-primary ms-4 mb-5">Služby</h2>
       <div class="row g-4">
         <div class="col-10 offset-1 col-md-4 offset-md-0">
-          <a href="cenik.html#cenik_svatebni" class="text-decoration-none">
+          <a href="?page=cenik#nevesta" class="text-decoration-none">
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
@@ -129,7 +129,7 @@
         </div>
 
         <div class="col-10 offset-1 col-md-4 offset-md-0">
-          <a href="cenik.html#cenik_maturitni" class="text-decoration-none">
+          <a href="?page=cenik#maturantka" class="text-decoration-none">
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
@@ -151,7 +151,7 @@
         </div>
 
         <div class="col-10 offset-1 col-md-4 offset-md-0">
-          <a href="cenik.html#cenik_ostatni" class="text-decoration-none">
+          <a href="?page=cenik#udalost" class="text-decoration-none">
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
