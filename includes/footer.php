@@ -23,11 +23,11 @@
       <div class="col-lg-2 col-md-3">
         <h5>Rychlé&nbsp;odkazy</h5>
         <ul class="list-unstyled">
-          <li><a href="index.html#home">Domů</a></li>
-          <li><a href="index.html#sluzby">Služby</a></li>
-          <li><a href="index.html#o_me">O mě</a></li>
-          <li><a href="fotogalerie.html">Portfolio</a></li>
-          <li><a href="index.html#kontakt">Kontakt</a></li>
+          <li><a href="?page=domu">Domů</a></li>
+          <li><a href="?page=domu#sluzby">Služby</a></li>
+          <li><a href="?page=domu#o_me">O mě</a></li>
+          <li><a href="?page=portfolio">Portfolio</a></li>
+          <li><a href="?page=domu#kontakt">Kontakt</a></li>
         </ul>
       </div>
 
@@ -44,7 +44,7 @@
               <i class="fab fa-instagram fa-3x"></i></a>
           </div>
           <div class="mt-2">
-            <small>&copy; 2025 | <a href="#">Václav Nekolný</a></small>
+            <small>&copy; 2025 | <a href="https://www.linkedin.com/in/vaclav-nekolny/" target="new">Václav Nekolný</a></small>
           </div>
         </div>
       </div>
