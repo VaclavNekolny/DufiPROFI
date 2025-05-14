@@ -141,8 +141,6 @@
 <!-- end of PRODUKTY -->
 
 <!-- O MĚ -->
-
-<!-- end of  O MĚ -->
 <div id="o_me"></div>
 <section class="container py-6" id="about-me">
   <div class="row align-items-center">
@@ -178,6 +176,8 @@
 
   </div>
 </section>
+<!-- end of  O MĚ -->
+
 
 <!-- PORFTOLIO -->
 <!-- carousel -->
@@ -255,7 +255,7 @@
           </div>
         </div>
         <div class="col-10 offset-1 col-md-6 offset-md-3">
-          <a href="fotogalerie.html" class="btn btn-primary btn-lg mt-2 d-block">Více fotografií</a>
+          <a href="?page=portfolio" class="btn btn-primary btn-lg mt-2 d-block">Více fotografií</a>
         </div>
       </div>
     </div>
