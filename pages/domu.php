@@ -3,7 +3,7 @@
     <div class="hero pt-8">
       <div class="row">
         <div class="col-md-5">
-          <div class="d-flex justify-content-center">
+          <!-- <div class="d-flex justify-content-center">
             <div class="image-container">
               <img
                 src="images/hero/small/hero000_small.jpg"
@@ -11,6 +11,60 @@
                 class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
             </div>
           </div>
+        </div> -->
+
+          <!-- CAROUSEL 3 obrázky -->
+          <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                  <div class="image-container">
+                    <img
+                      src="images/hero/small/hero000_small.jpg"
+                      alt=""
+                      class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <div class="image-container">
+                    <img
+                      src="images/hero/small/hero001_small.jpg"
+                      alt=""
+                      class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <div class="image-container">
+                    <img
+                      src="images/hero/small/hero002_small.jpg"
+                      alt=""
+                      class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Ovládací šipky -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Předchozí</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Další</span>
+            </button>
+          </div>
+
+
+          <!-- end of CAROUSEL -->
         </div>
         <div class="col-md-7">
           <div
