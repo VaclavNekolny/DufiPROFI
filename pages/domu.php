@@ -21,7 +21,7 @@
                 <div class="d-flex justify-content-center">
                   <div class="image-container">
                     <img
-                      src="images/hero/small/hero000_small.jpg"
+                      src="images/hero/hero000.jpg"
                       alt=""
                       class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
                   </div>
@@ -32,7 +32,7 @@
                 <div class="d-flex justify-content-center">
                   <div class="image-container">
                     <img
-                      src="images/hero/small/hero001_small.jpg"
+                      src="images/hero/hero001.jpg"
                       alt=""
                       class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
                   </div>
@@ -43,7 +43,7 @@
                 <div class="d-flex justify-content-center">
                   <div class="image-container">
                     <img
-                      src="images/hero/small/hero002_small.jpg"
+                      src="images/hero/hero002.jpg"
                       alt=""
                       class="img-fluid img-thumbnail bg-light rounded-5 p-2" />
                   </div>
@@ -312,8 +312,14 @@
 <section class="contact-form">
   <div class="container p-5">
     <div class="row">
-      <div class="col-md-8 offset-md-2 col-sm-12">
-        <h2 class="mb-4">KONTAKTNÍ FORMULÁŘ</h2>
+      <div class="col-md-8 offset-md-2 col-sm-12 d-flex align-items-center" style="height: 400px" ;>
+        <div>
+          <h2 class="mb-4">KONTAKTNÍ FORMULÁŘ</h2>
+
+          <p class="lead">Omlouváme se, ale kontaktní formulář zatím není k dispozici.<br>
+            Prosím kontaktujte mě přes E-mail: <strong>dufiprofi@seznam.cz</strong> </p>
+        </div>
+        <!-- 
         <form action="send-mail.php" method="POST">
           <div class="mb-3">
             <label for="fullName" class="form-label">Jméno a příjmení</label>
@@ -367,7 +373,8 @@
               required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Odeslat</button>
-        </form>
+        </form> -->
+
       </div>
     </div>
   </div>
