@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container">
     <a href="?page=domu" class="navbar-brand">
-      <img src="images/logo-transparent.png" />
+      <img src="images/logo-final.png" />
     </a>
     <button
       class="navbar-toggler"

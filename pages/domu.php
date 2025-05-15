@@ -112,7 +112,7 @@
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
-                src="images/products1.png"
+                src="images/sluzby-svatba.jpeg"
                 alt="Svatební líčení"
                 style="object-fit: cover; object-position: center"
                 height="230" />
@@ -133,7 +133,7 @@
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
-                src="images/products2.JPG"
+                src="images/sluzby-maturak.jpeg"
                 alt="Vizáž na společenskou akci"
                 style="object-fit: cover; object-position: center"
                 height="230" />
@@ -155,7 +155,7 @@
             <div class="card bg-light rounded-5">
               <img
                 class="card-img-top rounded-top-5"
-                src="images/products3.webp"
+                src="images/sluzby-udalost.jpeg"
                 alt="Líčení a účes na maturák"
                 style="object-fit: cover; object-position: center"
                 height="230" />
