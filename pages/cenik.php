@@ -210,10 +210,11 @@
             <div class="box">
               <h2>SPOLEČENSKÁ UDÁLOST</h2>
               <p>
-                Čeká Tě maturitní ples a chceš mít luxusní make-up a účes hodný
-                této události? Máš jasnou vizi o tom, jak se chceš v tento den
-                cítit a vypadat? Nebo chceš s líčením i účesem poradit? Vše je
-                možné.
+                Chystáte se na ples, firemní večírek, oslavu
+                narozenin, focení nebo třeba na rande?
+                Zkrátka, čeká Vás událost, na které chcete
+                zapůsobit? Jsem tu pro Vás. Líčení i účes,
+                díky kterému se budete cítit výjimečná.
               </p>
             </div>
           </div>
@@ -240,29 +241,18 @@
             <div class="box">
               <h5>Společenská událost</h5>
               <p>
-                Maturitní ples je pro každou slečnu důležitý okamžik. Chce zářit
-                nejen na parketu, ale i v očích všech přihlížejících. Mojí vášní
-                je podtrhnout přirozenou krásu každé maturantky a vytvořit jí
-                líčení i účes, ve kterém se bude cítit sebevědomě, elegantně a
-                jedinečně. Ať už toužíš po jemném romantickém looku, nebo
-                výrazném glam stylu, společně vytvoříme styling, který vystihne
-                právě Tebe.
+                Každá výjimečná chvíle si zaslouží výjimečný vzhled. Ať Vás čeká ples, firemní večírek, focení a jiná společenská událost, jsem tady proto, abych Vám pomohla
+                cítit se sebevědomě, elegantně a naprosto okouzlující.
+                Důvěra je základem každé proměny. Pokud hledáte někoho, kdo Vás vyslechne, pochopí Vaše přání a podtrhne Vaši přirozenost, jste na správném místě.
+                Těším se až společně vytvoříme vzhled, který bude ladit k šatům i k příležitosti.
               </p>
               <p>
-                Na maturitní ples budeš vzpomínat celý život, tak si dopřej péči
-                a svěř se do rukou vizážistky. Nabízím profesionální přístup a
-                příjemnou atmosféru, ve které se můžeš uvolnit a nechat se
-                hýčkat.
+                Věřím, že každá z nás si minimálně jednou za život zaslouží, když se o ni někdo postará. Tak se svěřte do mých rukou a nechte se hýčkat.
+                Zaručuji Vám profesionální a zároveň přátelský přístup. Mým cílem je, abyste odcházela spokojená a cítila se naprosto dokonale.
               </p>
               <p>
-                Termíny na plesovou sezónu se rychle plní, pokud chceš mít
-                jistotu, že ten den budu mít čas právě pro Tebe, ozvi se mi
-                včas.
-              </p>
-              <p>
-                Stačí mi zavolat či napsat do zpráv třeba na Instagramu nebo
-                vyplň formulář zde na webu. Těším se na spolupráci.
-              </p>
+                S jakýmkoliv dotazem a přáním mě neváhejte kontaktovat.
+                Budu se těšit na spolupráci.</p>
             </div>
           </div>
         </div>
