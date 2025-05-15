@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container">
     <a href="?page=domu" class="navbar-brand">
-      <img src="./images/logo-final1.png" />
+      <img class="py-2" src="./images/logo-final1.png" />
     </a>
     <button
       class="navbar-toggler"
