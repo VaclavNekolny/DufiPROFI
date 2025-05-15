@@ -261,31 +261,21 @@
                 data-bs-slide-to="2"
                 data-bs-target="#slider"
                 aria-label="Slide 3"></button>
-              <button
-                type="button"
-                data-bs-slide-to="3"
-                data-bs-target="#slider"
-                aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner rounded-5">
               <div class="carousel-item active">
                 <img
-                  src="/images/portfolio_placeholder5.jpg"
+                  src="/images/carousel0.png"
                   class="d-block w-100 rounded-5" />
               </div>
               <div class="carousel-item">
                 <img
-                  src="/images/portfolio_placeholder7.jpg"
+                  src="/images/carousel1.png"
                   class="d-block w-100 rounded-5" />
               </div>
               <div class="carousel-item">
                 <img
-                  src="/images/portfolio_placeholder3.jpg"
-                  class="d-block w-100 rounded-5" />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/images/portfolio_placeholder1.jpg"
+                  src="/images/carousel2.jpg"
                   class="d-block w-100 rounded-5" />
               </div>
             </div>
