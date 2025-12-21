@@ -11,17 +11,19 @@
           </div>
         </div>
 
-        <?php
-        $page = $_GET['filtr'] ?? 'nevesta';
+        <div class="galerie-container">
+          <?php
+          $page = $_GET['filtr'] ?? 'nevesta';
 
-        $filepath = "pages/portfolio/{$page}.html";
+          $filepath = "pages/portfolio/{$page}.html";
 
-        if (file_exists($filepath)) {
-          include $filepath;
-        } else {
-          echo "<p>Požadovaná stránka neexistuje.</p>";
-        }
-        ?>
+          if (file_exists($filepath)) {
+            include $filepath;
+          } else {
+            echo "<p>Požadovaná stránka neexistuje.</p>";
+          }
+          ?>
+        </div>
 
       </div>
     </section>
